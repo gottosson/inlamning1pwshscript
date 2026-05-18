@@ -39,8 +39,10 @@ function Skapa-Struktur {
 
 }
 
-# Fråga användaren efter ett namn
+# Fråga användaren efter ett namn på den nya mappen
 
 $namn = Read-Host "Hej, vänligen ange ett namn på din nya mapp:"
+
+# Anropa funktionen
 
 Skapa-Struktur -namn $namn
